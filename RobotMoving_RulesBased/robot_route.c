@@ -1,9 +1,4 @@
- /*
-CS-657 Intelligent Systems and Control 
-Assignment No.1 Robot Maze
-Name: Chenlei Zhang
-RedID: 819687369
-
+/*
 *****************************PROGRAM GOAL*****************************
 The robot can move from the start cell to a specified destination cell 
 without hitting any obstacle, and to make as few moves as possible.
@@ -87,13 +82,13 @@ int main(){
 	printf("...Menu...\n"
            "1.Run the robot!\n"
            "2.Exit\n"
-           "Please select one option¡G");
+           "Please select one optionÂ¡G");
     scanf("%d",&choice);
     
 	//In the case chosing "Run the robot"
 	if (choice==1)
 	{
-          printf("The plot of the route¡G\n");
+          printf("The plot of the routeÂ¡G\n");
           if(visit1(Si,Sj)==0){
           printf("Didn't find the exit,sorry\n");
           }
@@ -102,7 +97,7 @@ int main(){
 		  printf("...Menu...\n"
 			  "1.Run the robot!\n"
 			  "2.Exit\n"
-			  "Please select one option¡G");
+			  "Please select one optionÂ¡G");
 		  scanf("%d",&choice);
 		  system("cls");   
 	}
@@ -114,7 +109,7 @@ int main(){
     }
 //Dispalay the final route
 int result(int i,int j){
-    printf("The moving route¡G\n");
+    printf("The moving routeÂ¡G\n");
 	for(i=0;i<32;i++)
 	{
 		for(j=0;j<32;j++){
